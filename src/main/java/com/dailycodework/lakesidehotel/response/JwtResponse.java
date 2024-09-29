@@ -7,12 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
-
 @Data
-
+@AllArgsConstructor
 @NoArgsConstructor
 public class JwtResponse {
     private Long id;

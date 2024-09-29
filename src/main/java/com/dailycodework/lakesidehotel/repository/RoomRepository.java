@@ -7,10 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.time.LocalDate;
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
-
 public interface RoomRepository extends JpaRepository<Room, Long> {
 
     @Query("SELECT DISTINCT r.roomType FROM Room r")
